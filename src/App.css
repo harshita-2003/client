@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+h1{
+  margin: 2.5%;
+}
+
+#joinbutton{
+  display: block;
+  padding: 8px;
+  font-size: 1.1em;
+  margin: 10px auto;
+}
+
+
+#boxstream{
+  display:flex;
+}
+
+.stream{
+  width:50%;
+}
+
+video{
+  margin:0 auto;
+}
+
+#mainsec{
+  position: absolute;
+  z-index: 1000;
+}
